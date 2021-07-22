@@ -6,13 +6,20 @@
 import {LitElement, css, svg, html} from 'lit-element';
 import {styleMap} from 'lit-html/directives/style-map';
 
-import Cartesian2 from 'cesium/Source/Core/Cartesian2';
-import Cartesian3 from 'cesium/Source/Core/Cartesian3';
-import Matrix4 from 'cesium/Source/Core/Matrix4';
-import Transforms from 'cesium/Source/Core/Transforms';
-import Ellipsoid from 'cesium/Source/Core/Ellipsoid';
-import Ray from 'cesium/Source/Core/Ray';
-import CesiumMath from 'cesium/Source/Core/Math';
+// import Cartesian2 from 'cesium/Source/Core/Cartesian2';
+import Cartesian2 from '../../node_modules/cesium/Source/Core/Cartesian2';
+// import Cartesian3 from 'cesium/Source/Core/Cartesian3';
+import Cartesian3 from '../../node_modules/cesium/Source/Core/Cartesian3';
+// import Matrix4 from 'cesium/Source/Core/Matrix4';
+import Matrix4 from '../../node_modules/cesium/Source/Core/Matrix4';
+// import Transforms from 'cesium/Source/Core/Transforms';
+import Transforms from '../../node_modules/cesium/Source/Core/Transforms';
+// import Ellipsoid from 'cesium/Source/Core/Ellipsoid';
+import Ellipsoid from '../../node_modules/cesium/Source/Core/Ellipsoid';
+// import Ray from 'cesium/Source/Core/Ray';
+import Ray from '../../node_modules/cesium/Source/Core/Ray';
+// import CesiumMath from 'cesium/Source/Core/Math';
+import CesiumMath from '../../node_modules/cesium/Source/Core/Math';
 
 const vectorScratch = new Cartesian2();
 const windowPositionScratch = new Cartesian2();
